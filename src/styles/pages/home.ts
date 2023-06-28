@@ -8,7 +8,7 @@ export const HomeContainer = styled("main", {
   minHeight: 600,
 });
 
-export const Product = styled("a", {
+export const Product = styled("div", {
   background: "linear-gradient(180deg, #1ea483 0%, #7465d4 100%)",
   borderRadius: "0.5rem",
   // padding: "0.25rem",
@@ -45,6 +45,7 @@ export const Product = styled("a", {
     transition: "all 0.2s ease-in-out", // para fazer a transição de esconder para aparecer
 
     strong: {
+      color: "$gray100",
       fontSize: "$lg",
     },
 
